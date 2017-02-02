@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It isolates the changes to code visually so that coding errors
+	can be quickly found instead of searching through the entire code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Ability to try out code and to revert to an older version if it 
+	didn't work.
+	Ability to study how code have evolved and the reason for those 
+	changes gives better understanding of the purpose of the code.
+	
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    1. Pros are more control on when to commit e.g., after a logical change, less cluster with unnnecessary commits, puts responsibility on developer to use it correctly, allows collaboration in a logical manner. 
+	2. Cons requires judgement, forget to commit, needs discipline, different standards between developers, may not be completely functional doesn't run or compile, may not be a logical comment if half-way through, 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Mostly because each file in google docs is probably unrelated and could stand alone on its own as a logical unit. 
+	Code files could have several inter-related files e.g., css, html, js files and changes in one of them affects the other files too and should be treated as a related unit.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+    git log to see history of commits and what they were for
+	git diff to see the actual lines of codes that were changed between 2 commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Ability to go back to a commit before a bug was introduced means that don't have to spend hours debugging. Freedom to test various strategies and ideas knowing that you can go back to a state before these strategies. Can also save the state of various strategies and ideas in case want to use these.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For developing and tracking my own projects
+	
+
